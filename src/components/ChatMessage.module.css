@@ -1,0 +1,49 @@
+.profile {
+    width: 40px;
+    border-radius: 50%;
+    margin-right: .5rem;
+    align-self: flex-start;
+}
+
+.span {
+    display: flex;
+    align-items: center;
+    overflow-wrap: anywhere;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    color: black;
+    background-color: rgb(229,229,234);
+    padding: 0.25rem 1rem;
+    border-radius: 1.25rem;
+}
+
+.message-container-sent:first-child {
+    padding: 1.5rem 0;
+}
+
+.message-container-sent {
+    display: flex;
+    padding-bottom: 1.5rem;
+    margin-right: 1rem;
+    margin-left: 25%;
+    justify-content: flex-end;
+}
+
+.message-container-recieved:first-child {
+    padding: 1.5rem 0;
+}
+
+.message-container-recieved {
+    display: flex;
+    padding-bottom: 1.5rem;
+    margin-right: 25%;
+    margin-left: 1rem;
+}
+
+.message-container-sent p {
+    color: white;
+    background-color: rgb(34 139 214);
+}

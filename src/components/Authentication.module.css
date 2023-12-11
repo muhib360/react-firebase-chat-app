@@ -1,0 +1,19 @@
+.btn {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(11, 44, 68);
+    padding: 0.125rem 1rem;
+    border-radius: 2rem;
+}
+
+.btn-text {
+    margin-left: .5rem;
+}
+
+.google-icon {
+    width: 2rem;
+}

@@ -1,0 +1,52 @@
+.container {
+    height: 100dvh;
+    background-color: rgb(40,37,53);
+    max-width: 45rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main {
+    flex-grow: 1;
+    overflow: overlay;
+}
+
+.form {
+    display: flex;
+    max-width: 45rem;
+}
+
+.form input {
+    flex-grow: 3;
+    overflow: auto;
+    color: white;
+    background-color: rgb(58,58,58);
+    border: none;
+    padding: 1rem;
+}
+
+.form input:focus {
+    outline: none;
+}
+
+.send {
+    flex-grow: 1;
+    color: #bababa;
+    background-color: rgb(40,40,83);
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    justify-content: flex-end;
+    display: flex;
+    padding: .75rem;
+    background: #151515;
+}
+
+.header button {
+    background: #3a3a3a;
+    padding: 0.5rem 2rem;
+    border-radius: 2rem;
+}
