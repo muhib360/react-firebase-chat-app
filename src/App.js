@@ -3,6 +3,7 @@ import Authentication from "./components/Authentication";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { auth } from "./firebase.config";
 import Chatroom from "./components/Chatroom";
+console.log(process.env.API_KEY)
 
 function App() {
 	const [user, isLoading] = useAuthState(auth);
